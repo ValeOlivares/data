@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    padding: 0.5em;
+}
+
+.logo {
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#uno {
+    background-color: #E0E0E0;
+    padding-top: 0.9em;
+    /* border: 1px blue solid; */
+}
+
+.seleccionar {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: stretch;
+    -moz-box-align: stretch;
+    -ms-flex-align: stretch;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    padding-top: 2em;
+    padding-left: 3.5em;
+    padding-bottom: 1em;
+    /* border: 1px blue solid; */
+}
+
+#dos {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F7F7F7;
+    /* border: 1px blue solid; */
+    align-items: stretch;
+    padding-top: 2em;
+}
+
+hr {
+    height: 5px;
+    color: #fbbc00;
+}
+
+.min {
+    font-size: 14px;
+}
+
+.sede {
+    font-family: 'Francois One', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px;
+    margin-left: 4.7em;
+}
+
+.generacion {
+    font-family: 'Francois One', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px;
+}
+
+button {
+    border: none;
+}
+
+.nav {
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.tab {
+    /* border-bottom: 4px solid #fbbc00; */
+    font-family: 'Francois One', sans-serif;
+    font-size: 20px;
+    margin-left: 2em;
+    border-bottom: 3px #E0E0E0 solid;
+}
+
+.tab:hover {
+    border-bottom: 3px #F9A91A solid;
+}
+
+.enrollment,
+.achievement,
+.nps,
+.seccioncuatro {
+    width: 356px;
+    margin: 15px;
+    background-color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+
+    /* border: 1px blue solid; */
+}
+
+.contbox {
+    text-align: center;
+}
+
+.boxes {
+    width: 150px;
+    height: 63px;
+    background-color: #F7F7F7;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 13px;
+    font-weight: bold;
+    -webkit-box-shadow: 10px 10px 12px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 12px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 12px -9px rgba(0, 0, 0, 0.75);
+}
+
+#graficaEnroll {
+    text-align: center;
+}
+
+#enrollment {
+    float: left;
+}
+
+#contenedorStudDrop {
+    text-align: center;
+}
+
+#tres {
+    background-color: #F7F7F7;
+}
+
+#cuatro {
+    background-color: #F7F7F7;
+    display: flex;
+    /* border: 1px blue solid; */
+    /* border: 1px blue solid; */
+}
+
+.seccioncuatro {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 88.5%;
+    padding: 1em;
+}
+
+.graficatech img {
+    width: 65%;
+    float: left;
+}
+
+.unicornios {
+    background-color: white;
+    display: flex;
+    width: 88.5%;
+    margin-left: 4.5%;
+    padding-left: 2em;
+    margin-top: 55px;
+}
+
+img[src="assets/images/circle-graphic.png"] {
+    width: 30%;
+}
+
+#cinco {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F7F7F7;
+    /* border: 1px blue solid; */
+    padding-top: 2em;
+}
+
+#cinco .boxes {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    font-size: 13px;
+    font-weight: bold;
+    -webkit-box-shadow: 10px 10px 12px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 12px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 12px -9px rgba(0, 0, 0, 0.75);
+}
+
+.student,
+.teacher,
+.jedi {
+    display: flex;
+    flex-direction: column;
+    width: 356px;
+    margin: 15px;
+    background-color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding: 1em;
+    /* border: 1px blue solid; */
+}
+
+#student {
+    display: flex;
+    flex-direction: column;
+}
+
+.studentinfo {
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    background-color: #F7F7F7;
+    border: 2px #F9A91A solid;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    -webkit-box-shadow: 8px 10px 11px -4px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 8px 10px 11px -4px rgba(0, 0, 0, 0.54);
+    box-shadow: 8px 10px 11px -4px rgba(0, 0, 0, 0.54);
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+.deletestu {
+    min-width: 3em;
+    max-height: 3em;
+    border-radius: 3px;
+    color: rgb(180, 31, 31);
+    font-size: 20px;
+}
+
+.infoScores {
+    margin-right: auto;
+}
+
+header i {
+    color: black;
+    /* border: 1px blue solid; */
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.fa-bars {
+    padding-top: 20px;
+    padding-right: 100px;
+    font-size: 2em;
+}
+
+.sede {
+    /* border: 1px blue solid; */
+}
+
+.fa-th-large{
+    color: #4b4b4b;
+    margin: 10px;
+    padding: 5px;
+}
+.flag {
+    width: 30px;
+    margin: 20px;
+    padding-top: 20px;
+}
